@@ -31,6 +31,7 @@ Kurulum dosyasını sağ mous’a basarak admin modunda çalıştırınız.
 
 
 Bağlantı ayarlarını aşağıdaki örneğe göre yapınız.
+
 ![Resim](https://raw.githubusercontent.com/icobani/NAV-Collection-Integration-Setup/master/img/04.png)
 
  
@@ -64,6 +65,7 @@ Servis içersindeki işlemlerin çoğu otomatik olarak Dynamics NAV içinde tan�
 
 ##3.1	Son altı ay işlem görmüş müşterilerin entegrasyona dahil edilmesi
 Bu servis otomatik olarak belli aralıklarla çalışan bir servis değildir. Bu fonksiyonun benzeri NAV içersinde de olmakla beraber. Servis üzerinden de çalıştırılabilir. Servis son altı aydaki muhasebesel hareketleri takip ederek müşteriyi entegrasyona dahil edecek ilgili işareti koyar. Servisin olduğu dizine giderek command prompt üzerinden aşağıdaki şekilde bu işlemi manuel olarak çalıştırabilirsiniz.
+
 ![Resim](https://raw.githubusercontent.com/icobani/NAV-Collection-Integration-Setup/master/img/09.png) 
 
 ##3.2	Firma bilgilerinin BulutTahsilat sistemine gönderilmesi
