@@ -1,3 +1,8 @@
+![Resim](https://raw.githubusercontent.com/icobani/NAV-Collection-Integration-Setup/master/img/B1logo.png)
+
+----------
+
+
 # NAV COLLECTION INTEGRATION SERVICE KURULUM DÖKÜMANI #
 
 
@@ -19,6 +24,7 @@ Kurulum dosyasının son halini https://github.com/icobani/NAV-Collection-Integr
  
 ##2.2	Setup Dosyasının İndirilmesi
 [https://github.com/icobani/NAV-Collection-Integration-Setup](https://github.com/icobani/NAV-Collection-Integration-Setup "https://github.com/icobani/NAV-Collection-Integration-Setup") adresine gidiniz ve setup dosyasını seçiniz. 
+
 ![Resim](https://raw.githubusercontent.com/icobani/NAV-Collection-Integration-Setup/master/img/02.png)
 
 Download butonuna basarak yükleme dosyasını server’a indiriniz.
