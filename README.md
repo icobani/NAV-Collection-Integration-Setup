@@ -67,28 +67,27 @@ Servisin config dosyası kurulumun yapıldığı dizindedir. Kurulum sonrasında
 #3	SERVİS İŞLEMLERİ
 Servis içersindeki işlemlerin çoğu otomatik olarak Dynamics NAV içinde tanımlanan belli aralıklarla çalışır. Bununla birlikte istenildiği zaman da ilgili servisler dışardan da çalıştırılabilir.
 
-![Resim](https://raw.githubusercontent.com/icobani/NAV-Collection-Integration-Setup/master/img/08.png)
 
 ##3.1	Son altı ay işlem görmüş müşterilerin entegrasyona dahil edilmesi
 Bu servis otomatik olarak belli aralıklarla çalışan bir servis değildir. Bu fonksiyonun benzeri NAV içersinde de olmakla beraber. Servis üzerinden de çalıştırılabilir. Servis son altı aydaki muhasebesel hareketleri takip ederek müşteriyi entegrasyona dahil edecek ilgili işareti koyar. Servisin olduğu dizine giderek command prompt üzerinden aşağıdaki şekilde bu işlemi manuel olarak çalıştırabilirsiniz.
 
-![Resim](https://raw.githubusercontent.com/icobani/NAV-Collection-Integration-Setup/master/img/09.png) 
+![Resim](https://raw.githubusercontent.com/icobani/NAV-Collection-Integration-Setup/master/img/08.png) 
 
 ##3.2	Firma bilgilerinin BulutTahsilat sistemine gönderilmesi
 Dynamics NAV üzerinde gönderilecek olarak işaretli olan müşterileri BulutTahsilat sistemine gönderir. Servisin olduğu dizine giderek command prompt üzerinden aşağıdaki şekilde bu işlemi manuel olarak çalıştırabilirsiniz.
 
-![Resim](https://raw.githubusercontent.com/icobani/NAV-Collection-Integration-Setup/master/img/10.png)
+![Resim](https://raw.githubusercontent.com/icobani/NAV-Collection-Integration-Setup/master/img/09.png)
 
 ##3.3	Firma Banka bilgilerinin BulutTahsilat sistemine gönderilmesi
 Dynamics NAV üzerinde gönderilecek olarak işaretlenmiş olan müşteri banka bilgilerini BulutTahsilat sistemine gönderir. Servisin olduğu dizine giderek command prompt üzerinden aşağıdaki şekilde bu işlemi manuel olarak çalıştırabilirsiniz.
-![Resim](https://raw.githubusercontent.com/icobani/NAV-Collection-Integration-Setup/master/img/11.png) 
+![Resim](https://raw.githubusercontent.com/icobani/NAV-Collection-Integration-Setup/master/img/10.png) 
 ##3.4	BulutTahsilat eşleme yapılmış olan tahsilat bilgileri alınıyor
 BulutTahsilattan eşlemesi yapılmış olan ödeme bilgilerini Dynamics NAV’a aktarır. Servisin olduğu dizine giderek command prompt üzerinden aşağıdaki şekilde bu işlemi manuel olarak çalıştırabilirsiniz.
- ![Resim](https://raw.githubusercontent.com/icobani/NAV-Collection-Integration-Setup/master/img/12.png)
+ ![Resim](https://raw.githubusercontent.com/icobani/NAV-Collection-Integration-Setup/master/img/11.png)
 ##3.5	Navision'da ödeme işlemi deftere nakledilmiş kayıtlar, tamamlandı olarak işaretlenip sistemden siliniyor.
 Dynamics NAV üzerinde Deftere Nakledilmiş (muhasebeleştirilmiş) ödeme kayıtları tamamlandı olarak BulutTahsilat’a gönderilir. Servisin olduğu dizine giderek command prompt üzerinden aşağıdaki şekilde bu işlemi manuel olarak çalıştırabilirsiniz.
 
-![Resim](https://raw.githubusercontent.com/icobani/NAV-Collection-Integration-Setup/master/img/13.png)
+![Resim](https://raw.githubusercontent.com/icobani/NAV-Collection-Integration-Setup/master/img/12.png)
 #4	LOGLAMA SİSTEMİ
 Servisin loglama dosyası log dizini içersinde bulunmaktadır. Ayrıca her Pazar günü hafta içinde oluşan log dosyası sıkıştırılarak yedeklenir ve log dosyası silinir. 
 
