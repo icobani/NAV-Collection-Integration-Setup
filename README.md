@@ -91,3 +91,22 @@ Dynamics NAV üzerinde Deftere Nakledilmiş (muhasebeleştirilmiş) ödeme kayı
 #4	LOGLAMA SİSTEMİ
 Servisin loglama dosyası log dizini içersinde bulunmaktadır. Ayrıca her Pazar günü hafta içinde oluşan log dosyası sıkıştırılarak yedeklenir ve log dosyası silinir. 
 
+
+# 1	SERVİSİN MANUEL PARAMETRELERİ
+NAV Collection Integration Windows servisini aşağıdaki parametrelerle command prompt üzerinden çalıştırabilirsiniz
+
+> NAV Collection Integration.exe –install
+
+Servisi install eder. Services.msc üzerinde bu servisi görebilirsiniz.
+
+> NAV Collection Integration.exe –uninstall
+
+Servisi uninstall eder. Services.msc üzerinden kaldırır.
+
+> NAV Collection Integration.exe –start
+
+Servisi başlatır.
+
+> NAV Collection Integration.exe –stop
+
+Servisi durdurur.
