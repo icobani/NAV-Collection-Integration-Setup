@@ -8,7 +8,7 @@
 
  
 ## 1	GİRİŞ ##
-Bu doküman,  Bulut tahsilat ve Dynamics NAV entegrasyon servisinin kurulumu hakkındadır.
+Bu doküman,  Bulut tahsilat ve Dynamics NAV entegrasyon servisinin kurulumu hakkındadır. Diğer bilgilere aşağıda ulaşabilirsiniz.
  
 
 ##2	WİNDOWS SERVİS KURULUMU
@@ -20,7 +20,7 @@ Kurulum dosyasının son halini https://github.com/icobani/NAV-Collection-Integr
 -	Kurulum sonrasında servis Dynamics NAV’a Windows Authantication kullanıcısı ile ulaşır. Bu şekilde herhangi bir konfig dosyasında kullanıcı bilgileri ve şifreler kaydedilmez.
 -	Servisin çalışacağı servis kullanıcısının Dynamics NAV tarafındaki yetkilendirmesinin önceden yapılmış oldundan emin olunuz.
 -	Servis bulut sistemine Dynamics NAV üzerinde tanımlanan Api kod, kullanıcı ve şifre bilgileri ile bağlanır. Bu ayarların Dynamics NAV üzerinde yapıldığından emin olun.
--	Bunun haricinde NAV üzerinde yapılması zorunlu olan tanımlamalar için. Dynamics NAV dökümanını edinip gerekli kurulumları tamamlayın.
+-	Bunun haricinde NAV üzerinde yapılması zorunlu olan tanımlamalar için. Dynamics NAV dökümanını edinip gerekli kurulumları tamamlayın. Ayrıca yöneticinize bilgisini verin.
  
 ##2.2	Setup Dosyasının İndirilmesi
 [https://github.com/icobani/NAV-Collection-Integration-Setup](https://github.com/icobani/NAV-Collection-Integration-Setup "https://github.com/icobani/NAV-Collection-Integration-Setup") adresine gidiniz ve setup dosyasını seçiniz. 
